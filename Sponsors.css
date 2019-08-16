@@ -105,3 +105,49 @@ h4{
     font-family: 'Poppins', sans-serif;
     font-style: italic;
 }
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.container{
+    text-align: center;
+}
+
+.bg-light{
+    padding: 25px 0;
+    background: #f8f9fa;
+
+}
+
+.fa-instagram, .fa-twitter, .fa-facebook, .fa-youtube, .fa-linkedin{
+    color: #232B2B;
+    background: whitesmoke;
+    outline: none;
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.fa-instagram:hover, .fa-twitter:hover, .fa-facebook:hover, .fa-youtube:hover, .fa-linkedin:hover{
+    background: #ffa502;
+    border-radius: 50%;
+}
+
+h6 a{
+    font-size: 16px;
+    font-family: inherit;
+    color: #232B2B;
+    text-decoration: none;
+}
+
+h6 a:hover{
+    text-decoration: none;
+    color: #232B2B;
+}
